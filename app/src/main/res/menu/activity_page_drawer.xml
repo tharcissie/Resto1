@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/p"
+            android:title="Add plate" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ha"
+            android:title="Add receipt" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/eye"
+            android:title="View plate" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/eye"
+            android:title="View receipt" />
+    </group>
+
+    <item android:title="Schedule">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Change Email" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Change password" />
+        </menu>
+    </item>
+
+</menu>
